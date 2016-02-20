@@ -77,5 +77,3 @@ module Hashid
 
   end
 end
-
-ActiveRecord::Base.send :include, Hashid::Rails
